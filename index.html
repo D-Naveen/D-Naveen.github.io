@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Devaramani Naveen | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav id="navbar">
+    <div class="nav-logo">Naveen</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="resume.pdf" target="_blank" class="btn-resume">Resume</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="home">
+    <div class="hero-content">
+      <img src="profile.jpg" alt="Devaramani Naveen" class="profile-img"/>
+      <h1>Hello, I'm <span>Devaramani Naveen</span></h1>
+      <p class="tagline">CSE Graduate 2026 | Python Full Stack Developer | Deep Learning Enthusiast</p>
+      <div class="hero-buttons">
+        <a href="resume.pdf" download class="btn">Download Resume</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+      <div class="social-links">
+        <a href="https://linkedin.com/in/d-naveen-476b24337" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-container">
+      <div class="about-text">
+        <p>
+          I'm a Computer Science and Engineering student at UBDTCE Davangere (VTU),
+          graduating in 2026 with a CGPA of 7.63. I have hands-on experience in
+          Python Full Stack Development through my internship at QSpiders, Bengaluru,
+          where I built real-world web applications using Python, Django, HTML, and CSS.
+        </p>
+        <p>
+          I'm passionate about deep learning and building innovative software solutions.
+          I enjoy solving problems, collaborating in teams, and constantly learning new
+          technologies. I'm actively seeking an entry-level software developer role to
+          contribute and grow in a dynamic organization.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION ========== -->
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>B.E. in Computer Science and Engineering</h3>
+          <h4>UBDTCE, Davangere — VTU</h4>
+          <span class="year">2022 – 2026</span>
+          <p>CGPA: 7.63 | Focused on software engineering, deep learning, and full stack web development.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Pre-University Certificate (PUC) – Science</h3>
+          <h4>Vishwa Chetana Vidyaniketana, Davangere</h4>
+          <span class="year">2020 – 2022</span>
+          <p>Percentage: 96.33% | Science stream with Physics, Chemistry, and Mathematics.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>SSLC (10th Standard)</h3>
+          <h4>Adarsha Vidyalaya, Hagaribommanahalli</h4>
+          <span class="year">Passed 2020</span>
+          <p>Percentage: 90.88% | Strong academic foundation across all subjects.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE ========== -->
+  <section id="experience">
+    <h2 class="section-title">Internship Experience</h2>
+    <div class="experience-card">
+      <div class="exp-header">
+        <div>
+          <h3>Python Full Stack Development Intern</h3>
+          <h4>QSpiders — Test Yantra Software Solutions Pvt. Ltd.</h4>
+          <p class="exp-location"><i class="fas fa-map-marker-alt"></i> Rajajinagar, Bengaluru, Karnataka</p>
+        </div>
+        <span class="year">Jan 2026 – May 2026</span>
+      </div>
+      <ul>
+        <li>Gained hands-on experience in Python Full Stack Development through real-world projects.</li>
+        <li>Developed practical skills in building web applications using Python, HTML, CSS, and Django.</li>
+        <li>Worked in a collaborative team environment, reporting to a senior mentor throughout the internship.</li>
+        <li>Gained industry exposure and insights into software development practices in the IT industry.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <img src="project2.jpg" alt="Pneumonia Detection"/>
+        <div class="project-info">
+          <h3>Pneumonia Disease Detection</h3>
+          <p class="tech-stack">Python · Deep Learning · CNN · Django · HTML · CSS</p>
+          <p>Built a CNN model to detect pneumonia from chest X-ray images with high accuracy,
+             integrated with a full-stack Django web interface for real-time diagnosis.</p>
+          <a href="#" target="_blank" class="btn-small">View Project</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="project1.jpg" alt="EcoEats"/>
+        <div class="project-info">
+          <h3>EcoEats – Voice Assistant Food Ordering</h3>
+          <p class="tech-stack">Python · React · Django · MySQL · HTML · CSS</p>
+          <p>Full-stack food ordering web app integrated with a voice assistant for hands-free ordering,
+             built with React frontend and Django + MySQL backend.</p>
+          <a href="#" target="_blank" class="btn-small">View Project</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python"/>
+        <p>Python</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png" alt="SQL"/>
+        <p>SQL</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML"/>
+        <p>HTML</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS"/>
+        <p>CSS</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt="Bootstrap"/>
+        <p>Bootstrap</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS"/>
+        <p>Tailwind CSS</p>
+      </div>
+     <!--  <div class="skill-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" alt="Django"/>
+        <p>Django</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="React"/>
+        <p>React</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/919/919851.png" alt="Git"/>
+        <p>Git</p>
+      
+      </div> -->
+      <div class="skill-card">
+        <img src="./java-script.png" alt="JavaScript"/>
+        <p>Js(basics)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CERTIFICATIONS ========== -->
+  <section id="certifications">
+    <h2 class="section-title">Certifications</h2>
+    <div class="cert-grid">
+
+      <div class="cert-card">
+        <i class="fas fa-certificate"></i>
+        <h3>Data Structures and Algorithms using Java</h3>
+        <p>NPTEL — IIT</p>
+        <span>Add completion date</span>
+        <a href="./Data Structure and Algorithms using Java (1).pdf" target="_blank">View Certificate</a>
+      </div>
+
+      <!-- Add more certifications here -->
+
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact-container">
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required/>
+        <input type="email" placeholder="Your Email" required/>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <p><i class="fas fa-envelope"></i> devaramaninaveen19@gmail.com</p>
+        <p><i class="fas fa-phone"></i> +91 6363952573</p>
+        <p><i class="fas fa-map-marker-alt"></i> Davangere, Karnataka</p>
+        <p><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/d-naveen-476b24337" target="_blank">https://linkedin.com/in/d-naveen-476b24337</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <p>© 2026 Devaramani Naveen. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://linkedin.com/in/d-naveen-476b24337" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
